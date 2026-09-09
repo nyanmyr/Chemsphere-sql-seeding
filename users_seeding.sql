@@ -3,13 +3,13 @@ USE chemsphere;
 INSERT INTO users
 (email, user_role, created_at, updated_at)
 VALUES
-('jsmith_2600000030@uic.edu.ph', 'user', NOW(), NOW()),
+('jsmith_2600000030@uic.edu.ph', 'admin', NOW(), NOW()),
 ('ajohnson_2600000031@uic.edu.ph', 'user', NOW(), NOW()),
 ('rwilliams_2600000032@uic.edu.ph', 'user', NOW(), NOW()),
 ('mbrown_2600000033@uic.edu.ph', 'user', NOW(), NOW()),
-('mjones_2600000034@uic.edu.ph', 'user', NOW(), NOW()),
+('mjones_2600000034@uic.edu.ph', 'admin', NOW(), NOW()),
 ('pgarcia_2600000035@uic.edu.ph', 'pending', NOW(), NOW()),
-('dmiller_2600000036@uic.edu.ph', 'user', NOW(), NOW()),
+('dmiller_2600000036@uic.edu.ph', 'admin', NOW(), NOW()),
 ('jdavis_2600000037@uic.edu.ph', 'user', NOW(), NOW()),
 ('jrodriguez_2600000038@uic.edu.ph', 'user', NOW(), NOW()),
 ('lmartinez_2600000039@uic.edu.ph', 'suspended', NOW(), NOW()),
@@ -26,7 +26,7 @@ VALUES
 ('mlee_2600000050@uic.edu.ph', 'pending', NOW(), NOW()),
 ('nperez_2600000051@uic.edu.ph', 'user', NOW(), NOW()),
 ('athompson_2600000052@uic.edu.ph', 'user', NOW(), NOW()),
-('mwhite_2600000053@uic.edu.ph', 'user', NOW(), NOW()),
+('mwhite_2600000053@uic.edu.ph', 'admin', NOW(), NOW()),
 ('mharris_2600000054@uic.edu.ph', 'user', NOW(), NOW());
 
 SELECT * FROM users;
