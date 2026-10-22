@@ -11,7 +11,7 @@ INSERT INTO chemicals
     initial_quantity,
     current_quantity,
     expiration_date,
-    arrival_date,
+    date_received,
     safety_classes,
     ghs_symbols,
     unit,

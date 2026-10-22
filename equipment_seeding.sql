@@ -8,7 +8,7 @@ INSERT INTO equipment
     model,
     serial_id,
     status,
-    purchase_date,
+    date_received,
     warranty_expiration,
     last_maintenance,
     next_maintenance,
